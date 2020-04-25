@@ -1,13 +1,34 @@
 
 body {
-    background-color: rgb(250, 250,250);
+    background-color:  rgb(240,248,255);
+    backdrop-filter: blur();
 }
 
 .container {
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    position: relative;
+    color: antiquewhite ;
 }
+
+/*.container::after {*/
+/*    content: "";*/
+/*    opacity: 0.8;*/
+/*    background: rgb(240,248,255) !* Paste your URL for Image --> url()*! no-repeat fixed ;*/
+/*    background-blend-mode: normal ;*/
+/*    !* also change the blend mode to what suits you, from darken, to other*/
+/*    many options as you deem fit*!*/
+/*    background-size: cover ;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    position: absolute;*/
+/*    z-index: -1;*/
+/*    height: inherit ;*/
+/*}*/
 
 .image {
     width: 370px;
